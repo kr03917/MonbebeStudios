@@ -1,0 +1,248 @@
+html,body{
+	height: 100%;
+}
+
+#firstSection{
+	height: 100%;
+	background-image:url(src/homepage_banner.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+ 	background-size: 100% 100%;
+}
+ 
+#mainHeading{
+	position: absolute;
+	height: 78px;
+	margin: auto;
+	width: 100%;
+	top:38%;
+	font-family: Vidaloka;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 78px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#mainHeadingOverlap{
+	position: absolute; 
+	top: 0; 
+	width: 	100%;
+	color:#E9BC83;
+	font-family: July it;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 70px;
+	line-height: 144px;
+	transform: rotate(-3.6deg);
+}
+.headBtn{
+	
+	width: 16%;
+	height: 54px;
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	background-color: transparent;
+	color: #E9BC83;
+	border: 2px solid #E9BC83;
+	box-sizing: border-box;
+	
+
+}
+#downloadBtn{
+	left: 32%;
+	position: absolute;
+	top:63%;
+}
+#followBtn{
+	left: 54%;
+	top:63%;
+	position: absolute;
+}
+
+.secondSection{
+	height: 100%;
+	background-color:#030D20;
+}
+
+#heading1{
+	position: absolute;	
+	height: 71px;
+	left:35%;
+	top:115%;
+	font-family: Vidaloka;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 78px;
+	text-align: center;
+	/* #E9BC83 */
+	color: #E9BC83;
+}
+
+#monchou1{
+	position: sticky;
+	margin:auto;
+	top:50%;
+	left:80%;
+	transform: rotate(3.81deg);
+}
+
+.number{
+	position: absolute;
+	width: 100%;
+	font-family: Abril Fatface;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 200px;
+	line-height: 270px;
+	/* identical to box height */
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.17);
+}
+#number1{
+	
+	width: 238px;
+	height: 270px;
+	left: 70%;
+	top: 210%;
+}
+
+.text{
+	font-family: Karla;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFFFFF;
+}
+
+#text01{
+	position: absolute;
+	width: 431px;
+	height: 86px;
+	left: 65%;
+	top: 250%;
+
+}
+#seeMoreBtn{
+	left: 70%;
+	top:270%;
+	position: absolute;
+}
+.KarlaHeadingText{
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	/* identical to box height */
+	width: 100%;	
+	text-align: center;
+	letter-spacing: 0.2em;
+	/* #E9BC83 */
+	text-transform: uppercase;
+	color: #E9BC83;
+}
+#heading2{
+	position: absolute;
+	top:42%;
+}
+#heading2pt2{
+
+	position: absolute;
+	width:100%;
+	top:50%;
+	font-family: Abril Fatface;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 67px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+
+	/* #E9BC83 */
+
+	color: #E9BC83;
+}
+
+#annWatch{
+	position: absolute;
+	width: 580px;
+	height: 313px;
+	left: 15%;
+	top:340%;
+}
+.rect{
+	position: absolute;
+	left:50%;
+	top:347%;
+	color: white;
+	border: 1px solid #E9BC83;
+	box-sizing: border-box;
+	transform: skew(20deg);
+	padding:2% 2% 2% 2%;
+}
+#textReady{
+	transform: skew(-20deg);
+}
+
+#p1Text{
+	transform: skew(-20deg);
+
+	width: 100%;
+	font-family: Abril Fatface;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 67px;
+	text-align: center;
+	text-transform: uppercase;
+
+	/* #E9BC83 */
+
+	color: #E9BC83;
+}
+
+#annText{
+	transform: skew(-20deg);
+	width: 80%;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+#seeMore{
+	transform: skew(-20deg);
+	position: absolute;
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #E9BC83;
+	float: left;
+
+}
+#rightArrow{
+	transform: skew(-20deg);
+	width: 18px;
+	height: 18px;
+	float: right;
+}
+#seemoreLink{
+	margin-top: 20px;
+	width:28%;
+	float: right;
+}
