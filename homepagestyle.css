@@ -1,12 +1,13 @@
 html,body{
 	height: 100%;
+	width:100%;
 }
 
 #firstSection{
 	height: 100%;
 	background-image:url(src/homepage_banner.png);
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/
  	background-size: 100% 100%;
 }
  
@@ -15,7 +16,7 @@ html,body{
 	height: 78px;
 	margin: auto;
 	width: 100%;
-	top:38%;
+	top:40%;
 	font-family: Vidaloka;
 	font-style: normal;
 	font-weight: normal;
@@ -39,8 +40,7 @@ html,body{
 }
 .headBtn{
 	
-	width: 16%;
-	height: 54px;
+	padding:1% 2.5%;
 	font-family: Karla;
 	font-style: normal;
 	font-weight: bold;
@@ -51,7 +51,7 @@ html,body{
 	text-transform: uppercase;
 	background-color: transparent;
 	color: #E9BC83;
-	border: 2px solid #E9BC83;
+	border: 1px solid #E9BC83;
 	box-sizing: border-box;
 	
 
@@ -59,11 +59,11 @@ html,body{
 #downloadBtn{
 	left: 32%;
 	position: absolute;
-	top:63%;
+	top:62%;
 }
 #followBtn{
 	left: 54%;
-	top:63%;
+	top:62%;
 	position: absolute;
 }
 
@@ -73,9 +73,10 @@ html,body{
 }
 
 #heading1{
-	position: absolute;	
 	height: 71px;
-	left:35%;
+	padding-top: 5%;
+	margin-left: auto;
+  	margin-right: auto;
 	top:115%;
 	font-family: Vidaloka;
 	font-style: normal;
@@ -83,166 +84,78 @@ html,body{
 	font-size: 64px;
 	line-height: 78px;
 	text-align: center;
+	text-transform: uppercase;
 	/* #E9BC83 */
 	color: #E9BC83;
 }
-
+#teaserVid{
+	position: absolute;
+	top:125%;
+	left:20%;
+	width: 60%;
+  	height: auto;
+}
 #monchou1{
-	position: sticky;
-	margin:auto;
-	top:50%;
-	left:80%;
+	position: absolute;
+	top:136%;
+	left:67%;
 	transform: rotate(3.81deg);
 }
 
-.number{
+#weAreHere{
+	height:90%;
+	top:208%;
+	width:auto;
 	position: absolute;
-	width: 100%;
-	font-family: Abril Fatface;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 200px;
-	line-height: 270px;
-	/* identical to box height */
-	text-align: center;
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
-	color: rgba(255, 255, 255, 0.17);
-}
-#number1{
-	
-	width: 238px;
-	height: 270px;
-	left: 70%;
-	top: 210%;
-}
-
-.text{
-	font-family: Karla;
-	font-style: normal;
-	font-size: 15px;
-	line-height: 18px;
-	color: #FFFFFF;
-}
-
-#text01{
-	position: absolute;
-	width: 431px;
-	height: 86px;
-	left: 65%;
-	top: 250%;
 
 }
-#seeMoreBtn{
-	left: 70%;
-	top:270%;
-	position: absolute;
-}
-.KarlaHeadingText{
-	font-family: Karla;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 24px;
-	line-height: 28px;
-	/* identical to box height */
-	width: 100%;	
-	text-align: center;
-	letter-spacing: 0.2em;
-	/* #E9BC83 */
-	text-transform: uppercase;
-	color: #E9BC83;
-}
-#heading2{
-	position: absolute;
-	top:42%;
-}
-#heading2pt2{
 
-	position: absolute;
-	width:100%;
-	top:50%;
-	font-family: Abril Fatface;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 50px;
-	line-height: 67px;
-	text-align: center;
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
-
-	/* #E9BC83 */
-
-	color: #E9BC83;
-}
-
-#annWatch{
-	position: absolute;
-	width: 580px;
-	height: 313px;
-	left: 15%;
-	top:340%;
-}
-.rect{
+#weAreHereSec{
+	background-color: black;
+	width:45%;
 	position: absolute;
 	left:50%;
-	top:347%;
-	color: white;
-	border: 1px solid #E9BC83;
-	box-sizing: border-box;
-	transform: skew(20deg);
-	padding:2% 2% 2% 2%;
-}
-#textReady{
-	transform: skew(-20deg);
+	top:216%;
+	height:72%;
+	padding-left: 5%;
+	padding-top:5%;
 }
 
-#p1Text{
-	transform: skew(-20deg);
+#smolHeading{
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	letter-spacing: 0.2em;
 
-	width: 100%;
+	/* #E9BC83 */
+	text-transform: uppercase;
+	color: #E9BC83;
+}
+
+#biggHeading{
 	font-family: Abril Fatface;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 50px;
 	line-height: 67px;
-	text-align: center;
-	text-transform: uppercase;
-
-	/* #E9BC83 */
-
-	color: #E9BC83;
-}
-
-#annText{
-	transform: skew(-20deg);
-	width: 80%;
-	margin-top: 25px;
-	margin-bottom: 20px;
-}
-
-#seeMore{
-	transform: skew(-20deg);
-	position: absolute;
-	font-family: Karla;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 15px;
-	line-height: 18px;
-	text-align: center;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	color: #E9BC83;
-	float: left;
+	margin-top:0;
+}
 
+#smolText{
+	font-family: Karla;
+	width:60%;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 18px;
+
+	color: #FFFFFF;
 }
-#rightArrow{
-	transform: skew(-20deg);
-	width: 18px;
-	height: 18px;
-	float: right;
-}
-#seemoreLink{
-	margin-top: 20px;
-	width:28%;
-	float: right;
+#seeMoreBtn{
+	margin-top: 5%;
+	padding:2.5% 6%;
 }
