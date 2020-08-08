@@ -17,7 +17,7 @@ html,body{
 	height: 78px;
 	margin: auto;
 	width: 100%;
-	top:40%;
+	top:45%;
 	font-family: Vidaloka;
 	font-style: normal;
 	font-weight: normal;
@@ -29,15 +29,17 @@ html,body{
 
 #mainHeadingOverlap{
 	position: absolute; 
-	top: 0; 
+	top: 40%; 
 	width: 	100%;
 	color:#E9BC83;
-	font-family: July it;
+	font-family: Karla;
 	font-style: normal;
-	font-weight: normal;
-	font-size: 70px;
-	line-height: 144px;
-	transform: rotate(-3.6deg);
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	letter-spacing: 0.5em;
+	text-transform: uppercase;
 }
 .headBtn{
 	
@@ -90,23 +92,25 @@ html,body{
 	color: #E9BC83;
 }
 #teaserVid{
-	position: absolute;
-	top:125%;
-	left:20%;
+	margin:auto;
+	padding-left: 18%;
 	width: 60%;
   	height: auto;
+  	float:left;
 }
 #monchou1{
-	position: absolute;
-	top:136%;
-	left:67%;
+	margin-top: 13%;
+	margin-left:-9%;
+	width:20%;
+	height: auto;
 	transform: rotate(3.81deg);
+	
 }
 
 #weAreHere{
 	height:90%;
 	top:208%;
-	width:auto;
+	width:60%;
 	position: absolute;
 
 }
@@ -122,7 +126,9 @@ html,body{
 	padding-left: 5%;
 	padding-top:5%;
 }
-
+#textInBox{
+	height: 100%;
+}
 #smolHeading{
 	font-family: Karla;
 	font-style: normal;
@@ -130,7 +136,6 @@ html,body{
 	font-size: 20px;
 	line-height: 23px;
 	letter-spacing: 0.2em;
-
 	/* #E9BC83 */
 	text-transform: uppercase;
 	color: #E9BC83;
@@ -164,7 +169,53 @@ html,body{
 
 #ourStoryBg{
 	width:100%;
-	height:auto;
-	position: absolute;	
-    margin-top: 5%;
+	height:70%;
+	position: absolute;
+	margin: auto;	
+    top:315%;
+}
+
+#storyHeading{
+	position: absolute;
+	margin: auto;
+	width: 100%;
+	top:345%;
+	font-family: Vidaloka;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 78px;
+	text-align: center;
+	color:#E9BC83;
+}
+
+#storyHeadingOverlap{
+	position: absolute; 
+	top: 340%; 
+	width: 	100%;
+	color:#E9BC83;
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	letter-spacing: 0.5em;
+	text-transform: uppercase;
+
+}
+#moreDetailsBtn{
+	position: absolute;
+	margin-top: 30%;
+	margin-left:42%;
+	padding:1.5% 3%;
+}
+.vl {
+  border-left: 1px solid #E9BC83;
+  height: 190px;
+  position: absolute;
+  top:375%;
+  left: 50%;
+  margin-left: -3px;
+
 }
