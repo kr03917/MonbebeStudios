@@ -219,3 +219,8 @@ html,body{
   margin-left: -3px;
 
 }
+.center{
+	position: absolute;
+ 	top: 420%;
+  	left: 35%;
+}
