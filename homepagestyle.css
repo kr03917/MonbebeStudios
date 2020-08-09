@@ -10,6 +10,7 @@ html,body{
 	background-repeat: no-repeat;
 	/*background-attachment: fixed;*/
  	background-size: 100% 100%;
+
 }
  
 #mainHeading{
@@ -221,6 +222,70 @@ html,body{
 }
 .center{
 	position: absolute;
- 	top: 420%;
+ 	top: 406%;
   	left: 35%;
+}
+#announcement{
+	position: absolute;
+	top:420%;
+}
+#announcementSec{
+	background-color: black;
+	width:45%;
+	height:40%;
+	position: absolute;
+	left:50%;
+	top:437%;
+	padding-left: 5%;
+	padding-top:5%;
+}
+
+#redirect{
+	width:20%;
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	color: #E9BC83;
+	text-transform: uppercase;
+}
+#redirect div{
+    position: absolute;
+    top: 83%;
+}
+.arrowimg{
+	width: 20%;
+    height: auto;
+    position: absolute;
+    padding-left: 10%;
+}
+#sliderNumber{
+	width:30%;
+	color: #E9BC83;
+	padding-left: 5%;
+	font-family: Abril Fatface;
+	
+}
+#sliderNumber div{
+	position: absolute;
+	top: 487%;
+	display: inline;
+}
+.arrowRightSlider{
+	width: 8%;
+    height: auto;
+    padding-left: 20%;
+}
+
+.arrowLeftSlider{
+	width: 8%;
+    height: auto;
+    padding-right: 20%;
+
+}
+#counter{
+	padding-left: 2%;
 }
