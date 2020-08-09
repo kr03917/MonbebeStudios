@@ -335,3 +335,70 @@ html,body{
 	text-transform: uppercase;
 
 }
+#v{
+	top:575%;
+}
+
+#fullWidth{
+	background-color: black;
+	width:100%;
+	height:60%;
+	position: absolute;
+	margin: auto;	
+    top:625%;
+
+}
+
+#phone img{
+	margin-left: 45%;
+	height:80%;
+	position: absolute;	
+	top:615%;
+	width:auto;
+}
+#newsText{
+	padding-top: 5%;
+	padding-left: 5%;		
+}
+#followSmall{
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	letter-spacing: 0.2em;
+	color: #E9BC83;
+	padding-bottom: 1%;
+}
+
+#followBig{
+	font-family: Abril Fatface;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 67px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #E9BC83;
+	padding-bottom: 2%;
+}
+
+#followText{
+	font-family: Karla;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+
+	color: #FFFFFF;
+	width: 	35%;
+	padding-bottom: 3%;
+}
+#socialBtn{
+	margin-right:3%;
+	padding:none;
+}
+.socialimg{
+	width: 20px;
+	height: 20px;
+}
