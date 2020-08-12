@@ -402,3 +402,28 @@ html,body{
 	width: 20px;
 	height: 20px;
 }
+#ContactUs{
+	color: #E9BC83;
+	background-color: #0B2048;
+	width:60%;
+	height: 70%;
+	top:710%;
+	left:18%;
+	position: absolute;	
+	padding: 2%;
+}
+#contactHeading{
+	font-family: Abril Fatface;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 67px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+.footer{
+	height: 40%;
+	background-color:#0B2048;
+
+}
