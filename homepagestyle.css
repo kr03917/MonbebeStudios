@@ -15,7 +15,7 @@ html,body{
  
 #mainHeading{
 	position: absolute;
-	height: 78px;
+	height: 40%;
 	margin: auto;
 	width: 100%;
 	top:45%;
@@ -166,6 +166,7 @@ html,body{
 #seeMoreBtn{
 	margin-top: 5%;
 	padding:2.5% 6%;
+	position: absolute;
 }
 
 #ourStoryBg{
@@ -207,13 +208,13 @@ html,body{
 }
 #moreDetailsBtn{
 	position: absolute;
-	margin-top: 30%;
-	margin-left:42%;
+	top: 360%;
+	left:42.5%;
 	padding:1.5% 3%;
 }
 .vl {
   border-left: 1px solid #E9BC83;
-  height: 190px;
+  height: 25%;
   position: absolute;
   top:375%;
   left: 50%;
@@ -227,12 +228,14 @@ html,body{
 }
 #announcement{
 	position: absolute;
+	width:60%;
+	height: auto;
 	top:420%;
 }
 #announcementSec{
 	background-color: black;
 	width:45%;
-	height:40%;
+	height:42%;
 	position: absolute;
 	left:50%;
 	top:437%;
@@ -294,8 +297,8 @@ html,body{
 	background-color: #E9BC83;
 	color: #0B2048;
 	position: absolute;
-	margin-top: 44%;
-	margin-left:42%;
+	top: 491%;
+	left:42%;
 	padding:1.5% 3%;
 }
 #missionBg{
@@ -426,4 +429,17 @@ html,body{
 	height: 40%;
 	background-color:#0B2048;
 
+}
+
+form{
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+#name, #email, #subject, #message {
+	background-color: transparent;
+	border: 1px solid #E9BC83;
 }
