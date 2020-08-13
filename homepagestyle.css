@@ -1,8 +1,10 @@
 html,body{
 	height: 100%;
 	width:100%;
-	margin:0;
 }
+
+@import "bourbon";
+
 
 #firstSection{
 	height: 100%;
@@ -10,7 +12,6 @@ html,body{
 	background-repeat: no-repeat;
 	/*background-attachment: fixed;*/
  	background-size: 100% 100%;
-
 }
  
 #mainHeading{
@@ -18,7 +19,7 @@ html,body{
 	height: 78px;
 	margin: auto;
 	width: 100%;
-	top:45%;
+	top:40%;
 	font-family: Vidaloka;
 	font-style: normal;
 	font-weight: normal;
@@ -30,18 +31,18 @@ html,body{
 
 #mainHeadingOverlap{
 	position: absolute; 
-	top: 40%; 
+	top: 0; 
 	width: 	100%;
 	color:#E9BC83;
-	font-family: Karla;
+	font-family: July it;
 	font-style: normal;
-	font-weight: bold;
-	font-size: 24px;
-	line-height: 28px;
-	text-align: center;
-	letter-spacing: 0.5em;
-	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 70px;
+	line-height: 144px;
+	transform: rotate(-3.6deg);
 }
+
+
 .headBtn{
 	
 	padding:1% 2.5%;
@@ -93,25 +94,23 @@ html,body{
 	color: #E9BC83;
 }
 #teaserVid{
-	margin:auto;
-	padding-left: 18%;
+	position: absolute;
+	top:125%;
+	left:20%;
 	width: 60%;
   	height: auto;
-  	float:left;
 }
 #monchou1{
-	margin-top: 13%;
-	margin-left:-9%;
-	width:20%;
-	height: auto;
+	position: absolute;
+	top:136%;
+	left:67%;
 	transform: rotate(3.81deg);
-	
 }
 
 #weAreHere{
 	height:90%;
 	top:208%;
-	width:60%;
+	width:auto;
 	position: absolute;
 
 }
@@ -119,7 +118,6 @@ html,body{
 #weAreHereSec{
 	background-color: black;
 	width:45%;
-	height:70%;
 	position: absolute;
 	left:50%;
 	top:216%;
@@ -127,9 +125,7 @@ html,body{
 	padding-left: 5%;
 	padding-top:5%;
 }
-#textInBox{
-	height: 100%;
-}
+
 #smolHeading{
 	font-family: Karla;
 	font-style: normal;
@@ -137,6 +133,7 @@ html,body{
 	font-size: 20px;
 	line-height: 23px;
 	letter-spacing: 0.2em;
+
 	/* #E9BC83 */
 	text-transform: uppercase;
 	color: #E9BC83;
@@ -168,262 +165,293 @@ html,body{
 	padding:2.5% 6%;
 }
 
-#ourStoryBg{
-	width:100%;
-	height:70%;
-	position: absolute;
-	margin: auto;	
-    top:315%;
+#downloadNowBtn{
+	margin-top:;
 }
 
-#storyHeading{
-	position: absolute;
-	margin: auto;
-	width: 100%;
-	top:345%;
-	font-family: Vidaloka;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 64px;
-	line-height: 78px;
-	text-align: center;
-	color:#E9BC83;
+/* for testing : basic background colors */
+.test-bg
+{
+	background-color : #0B2048;
 }
 
-#storyHeadingOverlap{
-	position: absolute; 
-	top: 340%; 
-	width: 	100%;
-	color:#E9BC83;
-	font-family: Karla;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 24px;
-	line-height: 28px;
-	text-align: center;
-	letter-spacing: 0.5em;
-	text-transform: uppercase;
 
-}
-#moreDetailsBtn{
-	position: absolute;
-	margin-top: 30%;
-	margin-left:42%;
-	padding:1.5% 3%;
-}
-.vl {
-  border-left: 1px solid #E9BC83;
-  height: 190px;
-  position: absolute;
-  top:375%;
-  left: 50%;
-  margin-left: -3px;
-
-}
-.center{
-	position: absolute;
- 	top: 406%;
-  	left: 35%;
-}
-#announcement{
-	position: absolute;
-	top:420%;
-}
-#announcementSec{
-	background-color: black;
-	width:45%;
-	height:40%;
-	position: absolute;
-	left:50%;
-	top:437%;
-	padding-left: 5%;
-	padding-top:5%;
+/* containers */
+.pos-container {
+    display: flex;
+    align-items: center
 }
 
-#redirect{
-	width:20%;
-	font-family: Karla;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 15px;
-	line-height: 18px;
-	text-align: center;
-	letter-spacing: 0.1em;
-	color: #E9BC83;
-	text-transform: uppercase;
-}
-#redirect div{
-    position: absolute;
-    top: 83%;
-}
-.arrowimg{
-	width: 20%;
-    height: auto;
-    position: absolute;
-    padding-left: 10%;
-}
-#sliderNumber{
-	width:30%;
-	color: #E9BC83;
-	padding-left: 5%;
-	font-family: Abril Fatface;
-	
-}
-#sliderNumber div{
-	position: absolute;
-	top: 487%;
-	display: inline;
-}
-.arrowRightSlider{
-	width: 8%;
-    height: auto;
-    padding-left: 20%;
-}
+/* font handling here */ 
 
-.arrowLeftSlider{
-	width: 8%;
-    height: auto;
-    padding-right: 20%;
-
-}
-#counter{
-	padding-left: 2%;
-}
-
-#allUpdatesBtn{
-	background-color: #E9BC83;
-	color: #0B2048;
-	position: absolute;
-	margin-top: 44%;
-	margin-left:42%;
-	padding:1.5% 3%;
-}
-#missionBg{
-	width:100%;
-	height:70%;
-	position: absolute;
-	margin: auto;	
-    top:515%;
-}
-
-#missionHeading{
-	position: absolute;
-	margin: auto;
-	width: 100%;
-	top:545%;
-	font-family: Vidaloka;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 64px;
-	line-height: 78px;
-	text-align: center;
-	color:#E9BC83;
-}
-
-#missionHeadingOverlap{
-	position: absolute; 
-	top: 540%; 
-	width: 	100%;
-	color:#E9BC83;
-	font-family: Karla;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 24px;
-	line-height: 28px;
-	text-align: center;
-	letter-spacing: 0.5em;
-	text-transform: uppercase;
-
-}
-#v{
-	top:575%;
-}
-
-#fullWidth{
-	background-color: black;
-	width:100%;
-	height:60%;
-	position: absolute;
-	margin: auto;	
-    top:625%;
-
-}
-
-#phone img{
-	margin-left: 45%;
-	height:80%;
-	position: absolute;	
-	top:615%;
-	width:auto;
-}
-#newsText{
-	padding-top: 5%;
-	padding-left: 5%;		
-}
-#followSmall{
-	font-family: Karla;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 23px;
-	letter-spacing: 0.2em;
-	color: #E9BC83;
-	padding-bottom: 1%;
-}
-
-#followBig{
-	font-family: Abril Fatface;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 50px;
-	line-height: 67px;
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
-	color: #E9BC83;
-	padding-bottom: 2%;
-}
-
-#followText{
+.Karla
+{
 	font-family: Karla;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 15px;
 	line-height: 18px;
+}
 
-	color: #FFFFFF;
-	width: 	35%;
-	padding-bottom: 3%;
-}
-#socialBtn{
-	margin-right:3%;
-	padding:none;
-}
-.socialimg{
-	width: 20px;
-	height: 20px;
-}
-#ContactUs{
-	color: #E9BC83;
-	background-color: #0B2048;
-	width:60%;
-	height: 70%;
-	top:710%;
-	left:18%;
-	position: absolute;	
-	padding: 2%;
-}
-#contactHeading{
-	font-family: Abril Fatface;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 50px;
-	line-height: 67px;
-	text-align: center;
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
-}
-.footer{
-	height: 40%;
-	background-color:#0B2048;
+/* navbar handling here */
 
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
 }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+
+/* ------------------------------------ */
+
+/* for left col padding */
+/* 0115 */
+
+.col-space {
+position: absolute;
+width: 684px;
+height: 864px;
+left: 32px;
+top: 0px;
+}
+
+.sideGroup
+{
+	position: absolute;
+	width: 60.82px;
+	height: 558.88px;
+	left: 86.3px;
+	top: 194.03px;
+}
+
+/* short bar on the side of the page */
+.shortVector
+{
+	position: absolute;
+	width: 0px;
+	height: 90px;
+	left: 119.58px;
+	top: 281.25px;
+
+	border: 1px solid #FFFFFF;
+}
+
+
+/* new test for line + rotate text */
+.wrapper {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    border: 1px dashed #ccc;
+    margin: 10px;
+}
+
+.line {
+    position: absolute;
+    left: 49%;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: #ccc;
+    z-index: 1;
+}
+
+.wordwrapper {
+    text-align: center;
+    height: 12px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin-top: -12px;
+    z-index: 2;
+}
+
+.word {
+    color: #ccc;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 3px;
+    font-family: Karla;
+    background: transparent;
+} 
+
+/* side div box for vertical things */
+.sideBox {  
+position: absolute;
+width: 60.82px;
+height: 558.88px;
+left: 86.3px;
+top: 194.03px;
+}
+
+/* vertical line */
+.verticalLine {
+position: absolute;
+width: 0px;
+height: 70px;
+left: 119.58px;
+top: 281.25px;
+
+border: 1px solid #FFFFFF;
+}
+
+
+/*left number handling */
+.mainNumber {
+position: absolute;
+width: 60.82px;
+height: 66.56px;
+left: 86.3px;
+top: 194.03px;
+
+font-family: Vidaloka;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+/* 7-1 error rotate handling */
+.systemRotate {
+position: absolute;
+width: 198.54px;
+height: 16.07px;
+left: 111.55px;
+top: 570.44px;
+
+font-family: Karla;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+transform: rotate(-90deg);
+}
+
+/* backAlley */
+.backAlley {
+background-image: url(src/backAlley.png);
+padding-top: 0;
+margin: 0;
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+overflow: hidden;
+
+mix-blend-mode: color-dodge;
+opacity: 0.5;
+}
+
+/* all navbar handling */
+
+
+.navbar {
+    width: 100%;
+    background-color: transparent;
+    transition: background-color .2s ease-out;
+}
+
+.fixed-top.scrolled {
+    background-color: #030D20 !important;
+    transition: background-color .2s linear;
+}
+
+/* For navbar spacing */
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;  
+}
+
+
+.theGameTest { 
+background-image: url(src/mainTitleArt.png) !important;
+padding-top: 0;
+margin: 0;
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+overflow: hidden;  }
+
+.theAlley {
+	background-image: url(src/backAlley.png) !important;
+	padding-top: 0;
+	margin: 0;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+ /* -------------------------------------------------------------- */
+ /* padding handling */
+
+.pd-89 {
+ padding-bottom: 5.563rem !important
+}
+
+.pd-30-t {
+    padding-top: 1.875rem !important
+}
+
+.pd-30 {
+    padding-bottom: 1.875rem !important
+}
+
+.relativeImage {
+	position: relative;
+}
+
+
+/*button*/
+.btnGame {
+  border: 2px solid black;
+  background-color: transparent;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.downloadNow {
+  border-color: #fff;
+  color: #fff;
+}
+
