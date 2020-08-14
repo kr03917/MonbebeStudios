@@ -5,7 +5,11 @@ html,body{
 }
 
 @import "bourbon";
-
+/* For navbar spacing */
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
 #firstSection{
 	height: 100%;
 	background-image:url(src/homepage_banner.png);
