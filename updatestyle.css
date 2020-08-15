@@ -148,6 +148,57 @@ body{
 	line-height: 18px;
 	opacity: 0.5;
 }
+#blogPosts{
+	display: inline-flex;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#blogPosts li{
+	margin-top: 2%;
+	margin-right: 2%;
+	margin-left:1%;
+	width: 25%;
+	background-color: white;
+}
+
+.indBlog{
+	background-color: white;
+	width:100%;
+	padding-bottom: 20px;
+}
+.indBlogPic{
+	width:100%;
+	height:auto;
+}
+.indBlog a{
+	text-decoration: none;
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	color: #030D20;
+}
+.indBlog a:hover{
+	text-decoration: underline;
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	color: #030D20;
+}
+.indBlog p{
+	font-family: Karla;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 21px;
+
+color: #000000;
+}
+.indBlog div{
+	padding:6%;
+	
+}
 /* For navbar spacing */
 .navbar-nav > li{
 	padding-left:30px;
