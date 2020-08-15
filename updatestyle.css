@@ -2,6 +2,10 @@
 	background-color:#030D20;
 	padding:10%;
 }
+#upSecondSec{
+	background-color:#030D20;
+	padding:5% 0;
+}
 body{
 	width:100%;
 	margin: 0;	
@@ -37,6 +41,7 @@ body{
 	line-height: 23px;
 	letter-spacing: 0.2em;
 	color: 	white;
+	margin-top: 6%;
 }
 
 #smallText{
@@ -79,6 +84,38 @@ body{
 #seeMoreUpdates{
 	padding:2.5% 5%;
 }
+
+#myUL{
+	list-style-type: none;
+	padding: 0;
+  	margin: 0;
+  	text-align: center;
+}
+#myUL li{
+	display: inline;
+	padding-bottom:8px;
+}
+#myUL li a {
+	padding: 1.5%; /* Add some padding */
+	text-decoration: none; /* Remove default text underline */
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color:white;
+ }
+#myUL li a:hover{
+	font-size: 22px;
+}
+ .blogMenuActive{
+ 	/*border-bottom: 1px solid white;*/
+ 	text-decoration: underline;
+ }
+
 
 /* For navbar spacing */
 .navbar-nav > li{
