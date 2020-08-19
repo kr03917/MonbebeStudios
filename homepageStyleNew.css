@@ -1,0 +1,161 @@
+body, html {
+	height: 100%;
+    overflow-x: hidden;
+}
+
+#firstSection{
+	background-image:url(src/homepage_banner.png);
+	height: 100%;
+	background-position: center;
+ 	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+#headingOverlap{
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	color:#E9BC83;
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	letter-spacing: 0.5em;
+}
+
+#mainHeading{
+	font-family: Vidaloka;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 87px;
+	text-align: center;
+	color: #FFFFFF;
+}
+#mainHeadingContainer{
+	padding-top: 20%;
+}
+.headBtn{
+	margin-top: 5%;
+	margin-left: 15%;
+	padding:9% 15%;
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	background-color: transparent;
+	color: #E9BC83;
+	border: 1px solid #E9BC83;
+	box-sizing: border-box;
+}
+
+.blueBgSection{
+	background-color:#030D20;
+	padding:5% 0;
+}
+
+#teaserText{
+	font-family: Vidaloka;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 78px;
+	text-align: center;
+	color: #E9BC83;
+	text-transform: uppercase;
+}
+#teaserVid{
+	width:100%;
+}
+#monchou1{
+	height: auto;
+	width: 100%;
+}
+#videoRow{
+	padding-top: 3%;
+}
+
+#weAreHereContainer{
+	background-color:black;
+	padding:10%;
+}	
+
+/*
+#removeMargin{
+	margin:0;
+}*/
+
+#smolHeading{
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	letter-spacing: 0.2em;
+	/* #E9BC83 */
+	text-transform: uppercase;
+	color: #E9BC83;
+}
+
+#biggHeading{
+	font-family: Abril Fatface;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 67px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #E9BC83;
+}
+
+#smolText{
+	font-family: Karla;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 18px;
+
+	color: #FFFFFF;
+}
+#seeMoreBtn{
+	padding:2.5% 6%;
+}
+#ourStorySection{
+	background-image:url(src/thisisourstory.png);
+	background-position: center;
+ 	background-repeat: no-repeat;
+ 	padding-top: 10%;
+ 	padding-bottom: 10%;
+}
+
+#storyHeading{
+	font-family: Vidaloka;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 78px;
+	text-align: center;
+	color:#E9BC83;
+}
+
+#storyHeadingOverlap{
+	color:#E9BC83;
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	letter-spacing: 0.5em;
+	text-transform: uppercase;
+
+}
+.line {
+  border-left: 1px solid #E9BC83;
+  margin:-2% 50%;
+  height: 120px;
+}
