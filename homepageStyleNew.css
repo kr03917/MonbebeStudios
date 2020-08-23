@@ -71,18 +71,23 @@ body, html {
 }
 #teaserVid{
 	width:100%;
+	margin-left: 15%;
 }
 #monchou1{
 	height: auto;
-	width: 100%;
+	width: 80%;
+	margin-left: 5%;
 }
 #videoRow{
 	padding-top: 3%;
 }
-
+#weAreHere {
+	height:80%;
+	width: 	auto;
+}
 #weAreHereContainer{
 	background-color:black;
-	padding:10%;
+	padding:10% 7% 10% 5%;
 }	
 
 /*
@@ -111,6 +116,7 @@ body, html {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	color: #E9BC83;
+
 }
 
 #smolText{
@@ -153,9 +159,61 @@ body, html {
 	letter-spacing: 0.5em;
 	text-transform: uppercase;
 
-}
+} 
 .line {
   border-left: 1px solid #E9BC83;
   margin:-2% 50%;
   height: 120px;
+}
+
+.centerText{
+	text-align: center;
+}
+#announcement{
+	width: 50%;
+}
+#updatesContainer{
+	margin-top: 8%;
+	background-color: black;
+	padding:5% 5%;
+	width:50%;
+}
+
+#seeMoreText{
+	margin-top: 7%;
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #E9BC83;
+	background-color: transparent;
+	border-color: transparent;
+}
+#seeMoreText img{
+	padding-left: 1%;
+	height:20px;
+	width: auto;
+}
+#slide{
+	padding-top: 5%;
+}
+
+#counter{
+	font-family: Abril Fatface;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #E9BC83;
+	width:45%;
+}
+#counter img{
+	height: 20px;
+	width: auto;
 }
