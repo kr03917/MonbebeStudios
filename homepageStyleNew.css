@@ -217,3 +217,9 @@ body, html {
 	height: 20px;
 	width: auto;
 }
+
+#viewAll{
+	color:#0B2048;
+	background-color: #E9BC83;
+	padding:2.5% 5%;
+}
