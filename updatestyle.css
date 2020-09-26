@@ -1,6 +1,6 @@
 #upFirstSec{
 	background-color:#030D20;
-	padding:10%;
+	padding:10% 0;
 }
 #upSecondSec{
 	background-color:#030D20;
@@ -68,17 +68,12 @@ body{
 	box-sizing: border-box;
 }
 
-#mainTitle{
-	display: flex;
-}
 #mainText{
-	margin-top: 7%;
-	margin-left:5%;
+	margin-top: 15%;
+	margin-right: 3%;
 }
 #demoContest{
-	width:60%;
-	margin-left: 30%;
-	height:auto;
+	width:100%;
 }
 
 #seeMoreUpdates{
@@ -112,9 +107,9 @@ body{
 #myUL li a:hover{
 	font-size: 22px;
 }
-.blogMenuActive{
+.blogMenuActive a{
 	/*border-bottom: 1px solid white;*/
-	text-decoration: underline;
+	color:#E9BC83 !important;
 }
 #myInput{
 	background-color: transparent;

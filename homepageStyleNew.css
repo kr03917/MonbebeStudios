@@ -95,7 +95,7 @@ body, html {
 	margin:0;
 }*/
 
-#smolHeading{
+.smolHeading{
 	font-family: Karla;
 	font-style: normal;
 	font-weight: bold;
@@ -107,7 +107,7 @@ body, html {
 	color: #E9BC83;
 }
 
-#biggHeading{
+.biggHeading{
 	font-family: Abril Fatface;
 	font-style: normal;
 	font-weight: normal;
@@ -119,13 +119,17 @@ body, html {
 
 }
 
-#smolText{
+.smolText{
 	font-family: Karla;
 	font-style: normal;
 	font-size: 15px;
 	line-height: 18px;
 
 	color: #FFFFFF;
+}
+.sliderBtn{
+	background-color: transparent;
+	border:none;
 }
 #seeMoreBtn{
 	padding:2.5% 6%;
@@ -146,6 +150,7 @@ body, html {
 	line-height: 78px;
 	text-align: center;
 	color:#E9BC83;
+	text-transform: uppercase;
 }
 
 #storyHeadingOverlap{
@@ -167,7 +172,7 @@ body, html {
 }
 
 .centerText{
-	text-align: center;
+	text-align: center!important;
 }
 #announcement{
 	width: 50%;
@@ -198,7 +203,7 @@ body, html {
 	width: auto;
 }
 #slide{
-	padding-top: 5%;
+	padding-top: 2%;
 }
 
 #counter{
@@ -222,4 +227,107 @@ body, html {
 	color:#0B2048;
 	background-color: #E9BC83;
 	padding:2.5% 5%;
+}
+#missionSection{
+	background-image:url(src/mission.png);
+	background-position: center;
+ 	background-repeat: no-repeat;
+ 	padding: 15% 0;
+ 	width: 100%;
+ 	height: auto;
+}
+
+#blackBg{
+	background-color: black;
+	width:100%;
+	height: auto;
+	color: #E9BC83;
+}
+#socialText{
+	padding-left: 5%;
+}
+#socialImage img {
+	width:100%;
+	height:auto;
+}
+.width-80{
+	width:80%;
+}
+#socialButton{
+	margin:0;
+	padding: 5% 0;
+}
+#socialButton img{
+	width:10%;
+}
+#navyBlueBg{
+	background-color: #0B2048;
+	width:80%;
+	height: auto;
+	padding:2% 5%;
+}
+
+.formText{
+	text-transform: uppercase;	
+	color:#E9BC83;
+	font-family: karla;
+	padding-top: 2%;
+}
+
+.formInput{
+	background-color: transparent;
+	border:1px solid #E9BC83;
+	padding:1% 0;
+	color: white;
+	font-family:karla;
+	width: 100%;
+}
+
+.submitBtn{
+	background-color: transparent;
+	border:1px solid #E9BC83;
+	padding:1% 4%;
+	color: white;
+	font-family:karla;
+	text-transform: uppercase;
+	margin-top: 2.5%;
+	margin-bottom: 2%;
+	color:#E9BC83;
+}
+
+#thanks{
+	color:white;
+	font-family:karla;
+	text-transform: uppercase;
+}
+
+footer{
+	background-color: #0B2048;
+	padding:80px 30px;
+}
+.footerLink{
+	text-decoration:none;
+}
+
+.textFooter{
+	color:#E9BC83;
+	text-transform: uppercase;
+	font-family:karla;
+}
+
+.footerCopyRights{
+	color:white;
+	text-transform: uppercase;
+	font-family: karla;
+}
+
+.footerImg{
+	width:40px;
+}
+
+.toTop{
+	margin-top: -120%;
+	width:80px;
+	height: 80px;
+	background-color: #D14599;
 }

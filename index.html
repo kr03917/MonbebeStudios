@@ -14,6 +14,7 @@
 
 	<title>MONBEBE STUDIOS</title>
 </head>
+
 <body>
 	<!-- Handle the navbar here --> 
 	<nav class="navbar navbar-expand-lg navbar-dark mx-auto fixed-top">
@@ -68,7 +69,7 @@
 					<div class="col-12">
 						System Error 404	
 					</div>
-					
+
 				</div>
 				<div class="row justify-content-center" id="mainHeading">
 					<div class="col-12">
@@ -77,12 +78,12 @@
 
 				</div>
 				<div class="row justify-content-center">
-					<div class="col-3">
+					<div class="col-4">
 						<a href="https://monbebestudios.itch.io/514-first-page-demo-version">
 							<button type="button" class="headBtn" >DOWNLOAD NOW</button>
 						</a>
 					</div>
-					<div class="col-3">
+					<div class="col-4">
 						<a href="https://twitter.com/MonbebeStudios">
 							<button type="button" class="headBtn" >FOLLOW US!</button>
 						</a>
@@ -118,9 +119,9 @@
 				<div class="row">
 					<div class="col-6" id="weAreHere"><img src="src/wearehere.png"></div>
 					<div class="col-6 align-self-end" id="weAreHereContainer">
-						<p id="smolHeading">01 - FROM ZERO TO SEVEN</p>
-						<p id="biggHeading">WE ARE here</p>
-						<p id="smolText"><strong>And we’re glad you are too.</strong><br> <br>We’re Monbebe Studios and we’re excited to create content especially for Monbebe. We are creators, writers, designers, communicators. But above all : we are Monbebes. <br><br>Find out more about us and why we do what we do. </p>
+						<p class="smolHeading">01 - FROM ZERO TO SEVEN</p>
+						<p class="biggHeading">WE ARE here</p>
+						<p class="smolText"><strong>And we’re glad you are too.</strong><br> <br>We’re Monbebe Studios and we’re excited to create content especially for Monbebe. We are creators, writers, designers, communicators. But above all : we are Monbebes. <br><br>Find out more about us and why we do what we do. </p>
 						<button type="button" class="headBtn" id="seeMoreBtn">SEE MORE</button>
 					</div>
 					<div class="clearfix"></div>
@@ -154,45 +155,46 @@
 			</div>
 			<div class="line"></div>
 		</div>
-		
-		
 	</section>
+
 	<section class="blueBgSection">
 		<div class='container'>
-			<div class="row justify-content-center centerText" id="smolHeading">
-				<div class="col-12">
+			<div class="row justify-content-center centerText" >
+				<div class="col-12 smolHeading">
 					02 - Keep up with the latest
 				</div>
 			</div>
-			<div class="row justify-content-center centerText" id="biggHeading">
-				<div class="col-12">
+			<div class="row justify-content-center centerText" >
+				<div class="col-12 biggHeading">
 					All updates
 				</div>
 			</div>
 		</div>
 		<div id="slide">
 			<div class="container-fluid">
+
 				<div class="row">
 					<div class="col-6" id="announcement"><img src="src/announcement.png"></div>
 					<div class="col-6 align-self-end" id="updatesContainer">
-						<p id="smolHeading">Will you be ready,</p>
-						<p id="biggHeading">Player One?</p>
-						<p id="smolText">My name is Monbebe and I have a mission to accomplish. </p>
+						<p class="smolHeading" id="slideSmolHeading">Will you be ready,</p>
+						<p class="biggHeading" id="slideBiggHeading">Player One?</p>
+						<p class="smolText" id="slideSmolText">My name is Monbebe and I have a mission to accomplish. </p>
 						<button type="button" id="seeMoreText">SEE MORE<img src="src/arrow right (gold).png"></button>
 					</div>
 					<div class="clearfix"></div>
 				</div>	
 				<div class="row" id="counter">
 					<div class="col-1">
-						<a href="#"><img src="src/arrow left (gold).png"></a>					
+						<button class="sliderBtn" onclick="prevSlide()"><img src="src/arrow left (gold).png"></button>					
 					</div>
-					<div class="col-1">
+					<div class="col-1" id="counterSlider">
 						1/5						
 					</div>
 					<div class="col-1">
-						<a href="#"><img src="src/arrow right (gold).png"></a>						
+						<button class="sliderBtn" onclick="nextSlide()"><img src="src/arrow right (gold).png"></button>						
 					</div>
-				</div>		
+				</div>
+
 			</div>
 		</div>
 		<div class="container">
@@ -203,19 +205,273 @@
 							View All Updates
 						</button>	
 					</a>
-					
+
 				</div>
 			</div>
 		</div>
-		
 	</section>
+	<section class="blueBgSection">
+		<div class = "container-fluid" id = "missionSection">
+			<div class="row justify-content-center" id="storyHeadingOverlap">
+				<div class="col-12">
+					I have a mission	
+				</div>
 
-		    <!--- ! modernizr 3.6.0 (Custom Build) | MIT *
-		    	* https://modernizr.com/download/?-webp-setclasses -->
-		    	<script defer src="/JS/webp.js"></script>
+			</div>
+			<div class="row justify-content-center" id="storyHeading">
+				<div class="col-12">
+					To accomplish
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="line"></div>
+	</section>
+	<section class="blueBgSection">
+		<div class="container-fluid" id="blackBg">
+			<div class="row">
+				<div class="col-6 align-self-center" id="socialText">
+					<p class="smolHeading">03 - FOLLOW MONBEBE STUDIOS</p>
+					<p class="biggHeading">news and updates</p>
+					<p class="smolText" class="width-80">We’re tweeting our progress at @MonbebeStudios - follow us to keep up-to-date! And we’re also on instagram : @MonbebeStudios! </p>
+					<br><br>
+					<div class="row">
+						<div class="col-4">
+							<a href="https://www.instagram.com/monbebestudios/">
+								<button type="button" class="headBtn" id="socialButton"><img src="src/instagram.png">  INSTAGRAM</button>		
+							</a>
+						</div>
+						<div class="col-4">
+							<a href="https://twitter.com/MonbebeStudios">
+								<button type="button" class="headBtn" id="socialButton"><img src="src/twitter.png">  Twitter</button>		
+							</a>
+						</div>
+					</div>
 
-		    	<!-- Popper.js, then Bootstrap JS -->
-		    	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-		    	<script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-		    </body>
-		    </html>
+				</div>
+				<div class="col-6" id="socialImage"><img src="src/RS.png"></div>
+				<div class="clearfix"></div>
+			</div>		
+		</div>
+	</section>
+	<section class="blueBgSection">
+		<div class="container">
+			<div class="row justify-content-center centerText">
+				<div class="col-12 smolHeading">
+					04 - Whats up?
+				</div>
+			</div>
+			<div class="row justify-content-center centerText">
+				<div class="col-12 biggHeading">
+					Instagram Feed
+				</div>
+			</div>
+			<ul id="rudr_instafeed">
+			</ul>
+		</div>
+	</section>
+	<section class="blueBgSection">
+		<div class="container" id="navyBlueBg">
+			<div class="row justify-content-center centerText biggHeading">
+				Contact us
+			</div>
+			<form method="post" name="contact_form" action="contact-form-handler.php">
+			<!-- <form action="mailto:kr03917@st.habib.edu.pk" method="post" enctype="text/plain"> -->
+				<div class="row">
+					<div class="col">
+						<label class="formText" for="name">Name</label><br>	
+					</div>
+					<div class="col">
+						<label class="formText" for="email">Email</label><br>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6">
+						
+						<input class="formInput" type="text" id="name" name="name"><br>
+					</div>
+					<div class="col-6">
+						
+						<input class= "formInput" type="text" id="email" name="email">
+					</div>	
+				</div>	
+				<div class="row">
+					<div class="col">
+						<label class="formText" for="subject">Subject</label><br>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<input class="formInput" type="text" id="subject" name="subject"><br>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<label class="formText" for="message">Leave a message to us</label><br>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<textarea class="formInput" rows = "5" name = "message">
+            			</textarea><br>
+					</div>
+				</div>
+				<div class="row justify-content-center centerText">
+					<div class="col">
+						<input class="submitBtn" type = "submit" value = "submit" />
+					</div>
+				</div>
+				<div class="row justify-content-center centerText">
+					<div class="col" id="thanks">
+						Thanks for your message!
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
+	<!-- Footer -->
+<footer class="page-footer font-small">
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+  	<div class="row justify-content-end topBtn">
+  		<div class="col-1 ">
+  			<div class="toTop">
+  				me
+  			</div>	
+  		</div>
+  	</div>
+    <!-- Grid row -->
+    <div class="row">
+      <!-- Grid column -->
+      <div class="col-md-3 mt-md-0 mt-3" id="footerLogo">
+        <!-- Content -->
+        <a href="index.html">
+        	<img src="src/mbbstudiosLogo.png" alt="monbebeStudiosLogo">
+        </a>
+      </div>
+      <!-- Grid column -->
+      <hr class="clearfix w-100 d-md-none pb-3">
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+        <!-- Links -->
+        <a href="#" class="footerLink">
+        	<h5 class="textFooter">Privacy policy and tos</h5>	
+        </a>
+      </div>
+      <!-- Grid column -->
+      <div class="col-md-2 mb-md-0 mb-3">
+        <!-- Links -->
+        <a href="#" class="footerLink">
+        	<h5 class="textFooter">the Game</h5>	
+        </a>
+      </div>
+      <div class="col-md-2 mb-md-0 mb-3">
+        <!-- Links -->
+        <a href="#" class="footerLink">
+        	<h5 class="textFooter">FAQ</h5>	
+        </a>
+      </div>
+      <div class="col-md-1 mb-md-0 mb-3">
+        <!-- Links -->
+        <a href="https://www.instagram.com/monbebestudios/" class="footerLink">
+        	<img class="footerImg" src="src/instagram.png" alt="instagram">	
+        </a>
+      </div>
+      <div class="col-md-1 mb-md-0 mb-3">
+        <!-- Links -->
+        <a href="https://www.twitter.com/MonbebeStudios" class="footerLink">
+        	<img class="footerImg" src="src/twitter.png" alt="twitter">	
+        </a>
+      </div>
+    </div>
+    <!-- Grid row -->
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footerCopyRights text-center py-3">© 2020 Monbebe studios. designed by monbebe studios
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+	<!--- ! modernizr 3.6.0 (Custom Build) | MIT *
+	* https://modernizr.com/download/?-webp-setclasses -->
+	<script defer src="/JS/webp.js"></script>
+
+	<!-- Popper.js, then Bootstrap JS -->
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script language="JavaScript">
+
+	var frmvalidator = new Validator("contactform"); 
+	frmvalidator.addValidation("name","req","Please provide your name"); 
+	frmvalidator.addValidation("email","req","Please provide your email"); 
+	frmvalidator.addValidation("email","email", "Please enter a valid email address"); 
+	</script>
+	<script>
+		var initialSlide =1;
+	function nextSlide() {
+		if (initialSlide ==1){
+			initialSlide=initialSlide+1;
+			document.getElementById("slideSmolHeading").innerHTML="Slide2 small Heading";
+			document.getElementById("slideBiggHeading").innerHTML="Slide2 big Heading";
+			document.getElementById("slideSmolText").innerHTML="Slide2 small text";
+			document.getElementById("counterSlider").innerHTML= "2/5";
+		}
+		else if(initialSlide ==2){
+			initialSlide=initialSlide+1;
+			document.getElementById("slideSmolHeading").innerHTML="Slide3 small Heading";
+			document.getElementById("slideBiggHeading").innerHTML="Slide3 big Heading";
+			document.getElementById("slideSmolText").innerHTML="Slide3 small text";
+			document.getElementById("counterSlider").innerHTML= "3/5";
+		}
+		else if(initialSlide ==3){
+			initialSlide=initialSlide+1;
+			document.getElementById("slideSmolHeading").innerHTML="Slide4 small Heading";
+			document.getElementById("slideBiggHeading").innerHTML="Slide4 big Heading";
+			document.getElementById("slideSmolText").innerHTML="Slide4 small text";
+			document.getElementById("counterSlider").innerHTML= "4/5";
+		}
+		else if(initialSlide ==4){
+			initialSlide=initialSlide+1;
+			document.getElementById("slideSmolHeading").innerHTML="Slide5 small Heading";
+			document.getElementById("slideBiggHeading").innerHTML="Slide5 big Heading";
+			document.getElementById("slideSmolText").innerHTML="Slide5 small text";
+			document.getElementById("counterSlider").innerHTML= "5/5";
+		}
+	}
+	function prevSlide() {
+		if (initialSlide ==2){
+			initialSlide=initialSlide-1;
+			document.getElementById("slideSmolHeading").innerHTML="Will you be ready,";
+			document.getElementById("slideBiggHeading").innerHTML="Player One?";
+			document.getElementById("slideSmolText").innerHTML="My name is Monbebe and I have a mission to accomplish.";
+			document.getElementById("counterSlider").innerHTML= "1/5";
+		}
+		else if(initialSlide ==3){
+			initialSlide=initialSlide-1;
+			document.getElementById("slideSmolHeading").innerHTML="Slide2 small Heading";
+			document.getElementById("slideBiggHeading").innerHTML="Slide2 big Heading";
+			document.getElementById("slideSmolText").innerHTML="Slide2 small text";
+			document.getElementById("counterSlider").innerHTML= "2/5";
+		}
+		else if(initialSlide ==4){
+			initialSlide=initialSlide-1;
+			document.getElementById("slideSmolHeading").innerHTML="Slide3 small Heading";
+			document.getElementById("slideBiggHeading").innerHTML="Slide3 big Heading";
+			document.getElementById("slideSmolText").innerHTML="Slide3 small text";
+			document.getElementById("counterSlider").innerHTML= "3/5";
+		}
+		else if(initialSlide ==5){
+			initialSlide=initialSlide-1;
+			document.getElementById("slideSmolHeading").innerHTML="Slide4 small Heading";
+			document.getElementById("slideBiggHeading").innerHTML="Slide4 big Heading";
+			document.getElementById("slideSmolText").innerHTML="Slide4 small text";
+			document.getElementById("counterSlider").innerHTML= "4/5";
+		}
+	}
+</script>
+
+</body>
+</html>
